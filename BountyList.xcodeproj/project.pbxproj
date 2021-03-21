@@ -7,14 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F77485FF26075DA8004E84A2 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77485FE26075DA8004E84A2 /* DetailViewController.swift */; };
 		F795FB892600F75500ED80F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F795FB882600F75500ED80F2 /* AppDelegate.swift */; };
 		F795FB8B2600F75500ED80F2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F795FB8A2600F75500ED80F2 /* SceneDelegate.swift */; };
-		F795FB8D2600F75500ED80F2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F795FB8C2600F75500ED80F2 /* ViewController.swift */; };
 		F795FB902600F75500ED80F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F795FB8E2600F75500ED80F2 /* Main.storyboard */; };
 		F795FB922600F75700ED80F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F795FB912600F75700ED80F2 /* Assets.xcassets */; };
 		F795FB952600F75700ED80F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F795FB932600F75700ED80F2 /* LaunchScreen.storyboard */; };
 		F795FBA02600F75700ED80F2 /* BountyListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F795FB9F2600F75700ED80F2 /* BountyListTests.swift */; };
 		F795FBAB2600F75700ED80F2 /* BountyListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F795FBAA2600F75700ED80F2 /* BountyListUITests.swift */; };
+		F795FBBF2600F86F00ED80F2 /* BountyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F795FBBE2600F86F00ED80F2 /* BountyViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +36,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F77485FE26075DA8004E84A2 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		F795FB852600F75500ED80F2 /* BountyList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BountyList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F795FB882600F75500ED80F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F795FB8A2600F75500ED80F2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F795FB8C2600F75500ED80F2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F795FB8F2600F75500ED80F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F795FB912600F75700ED80F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F795FB942600F75700ED80F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +50,7 @@
 		F795FBA62600F75700ED80F2 /* BountyListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BountyListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F795FBAA2600F75700ED80F2 /* BountyListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BountyListUITests.swift; sourceTree = "<group>"; };
 		F795FBAC2600F75700ED80F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F795FBBE2600F86F00ED80F2 /* BountyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BountyViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +103,12 @@
 			children = (
 				F795FB882600F75500ED80F2 /* AppDelegate.swift */,
 				F795FB8A2600F75500ED80F2 /* SceneDelegate.swift */,
-				F795FB8C2600F75500ED80F2 /* ViewController.swift */,
 				F795FB8E2600F75500ED80F2 /* Main.storyboard */,
 				F795FB912600F75700ED80F2 /* Assets.xcassets */,
 				F795FB932600F75700ED80F2 /* LaunchScreen.storyboard */,
 				F795FB962600F75700ED80F2 /* Info.plist */,
+				F795FBBE2600F86F00ED80F2 /* BountyViewController.swift */,
+				F77485FE26075DA8004E84A2 /* DetailViewController.swift */,
 			);
 			path = BountyList;
 			sourceTree = "<group>";
@@ -258,9 +261,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F795FB8D2600F75500ED80F2 /* ViewController.swift in Sources */,
 				F795FB892600F75500ED80F2 /* AppDelegate.swift in Sources */,
+				F795FBBF2600F86F00ED80F2 /* BountyViewController.swift in Sources */,
 				F795FB8B2600F75500ED80F2 /* SceneDelegate.swift in Sources */,
+				F77485FF26075DA8004E84A2 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
