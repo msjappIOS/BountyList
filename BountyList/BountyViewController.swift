@@ -71,8 +71,6 @@ class BountyViewController: UIViewController , UICollectionViewDataSource, UICol
     //var bountyInfoList : [BountyInfo] = []
     let viewModel = BountyViewModel()
     
-    @IBOutlet var tableView: UITableView!
-    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "showDetail" {
             if let vc = segue.destination as? DetailViewController {
